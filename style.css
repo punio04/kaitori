@@ -2,35 +2,21 @@
   display: none;
 }
 
-
 body {
   font-family: "Zen Old Mincho", serif;
 }
 
-
-
 footer.flex-0.relative.md\:pb-0.pb-16 {
   font-family: "Zen Old Mincho", serif;
 }
-
-
-
-
-
 
 .faq {
   margin: 0 auto;
   text-align: center;
 }
 
-.faq-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 30px;
-}
-
 .faq-box {
-  background: #f6f8f4;
+  background: #5b5c570f;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,14 +27,15 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 
 .faq-q {
   font-weight: bold;
-  color: #2d8f4e;
+  color: #0F8C26;
   margin-bottom: 10px;
 }
 
 .faq-a {
-  color: #333;
+  color: #00200D;
   font-size: 14px;
   line-height: 1.6;
+  font-family: "Zen Old Mincho", serif;
 }
 
 .faq-button {
@@ -67,47 +54,6 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* 📱 レスポンシブ対応 */
-@media (max-width: 768px) {
-  .faq {
-    padding: 15px;
-  }
-
-  .faq-title {
-    font-size: 20px;
-  }
-
-  .faq-box {
-    padding: 15px;
-  }
-
-  .faq-q {
-    font-size: 16px;
-  }
-
-  .faq-a {
-    font-size: 14px;
-  }
-
-  .cta-button {
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding: 12px;
-    font-size: 14px;
-  }
-}
-
-
-
-@media (min-width: 768px) {
-  .md\:w-\[19\.3vw\] {
-    width: 12.3vw;
-  }
-}
-
-
-
 .mb-8 {
   text-align: left;
   margin-bottom: 3.7vh;
@@ -122,18 +68,6 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 .pb-11 {
   padding-bottom: 0;
 }
-
-#G_nav_button.is-opened span:nth-child(3) {
-  color: #fff;
-  margin-top: 1.2em;
-  margin-right: -.25em;
-  font-family: "Zen Old Mincho", serif;
-}
-
-
-
-
-
 
 .slider-container {
   position: relative;
@@ -203,24 +137,11 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   padding-top: 10px;
 }
 
-
-
 .arrow img {
   width: 26px;
-  /* 矢印のサイズを調整 */
   height: auto;
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
 
 .arrows {
   position: absolute;
@@ -254,7 +175,8 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   width: 10px;
   height: 10px;
   margin: 0 5px;
-  background-color: #bbb;
+  background-color: #fff;
+  border: 1px solid #8B8B8B;
   border-radius: 50%;
   display: inline-block;
   cursor: pointer;
@@ -264,21 +186,6 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 .dot.active {
   background-color: #333;
 }
-
-@media (max-width: 768px) {
-  .slide {
-    flex: 0 0 100%;
-  }
-}
-
-
-
-
-
-
-
-
-
 
 .container-wrapper {
   padding-top: 128px;
@@ -292,9 +199,6 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   padding-top: 2.5rem;
   padding-bottom: 0px;
 }
-
-
-
 
 .section {
   display: flex;
@@ -318,6 +222,7 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .text-content p {
@@ -332,11 +237,6 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 
 .image-content img {
   width: 100%;
-}
-
-.button-container {
-  text-align: center;
-  margin-top: 30px;
 }
 
 .cta-button {
@@ -362,73 +262,12 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   display: block;
 }
 
-@media (max-width: 768px) {
-  .sp {
-    display: block;
-  }
-
-  .pc {
-    display: none;
-  }
-
-  .section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .text-content,
-  .image-content {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .image-content img {
-    width: 100%;
-  }
-}
-
-
 .flex-wrapper {
   max-width: 70rem !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 768px) {
-  .md\:left-8 {
-    left: 0rem;
-  }
-}
-
-
-
-
-.request {
-  font-family: "Brush Script MT", cursive;
-  font-size: 36px;
-  color: #BFA980;
-  margin-bottom: 10px;
 }
 
 .cards {
@@ -442,6 +281,7 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   background-color: #fff;
   overflow: hidden;
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .card img {
@@ -452,98 +292,25 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 
 .card-text {
   padding: 10px;
-  background-color: #8B6932;
+  background-color: #8B5A2B;
   color: white;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card-bottom {
   padding: 10px;
-  background-color: #1E7D27;
+  background-color: #0F8C26;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
-
-@media (max-width: 768px) {
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    width: 100%;
-    margin-bottom: 25px;
-  }
-
-  .text-content h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .gradient-button {
-    cursor: pointer;
-    display: inline-block;
-    padding: 15px 40px;
-    font-size: 20px;
-    font-weight: normal;
-    color: white;
-    text-decoration: none;
-    background: linear-gradient(90deg, #0A5F1A 0%, #0F8C26 50%, #0A5F1A 100%);
-    transition: all 0.3sease-in-out;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    letter-spacing: 0.5px;
-    width: 100%;
-    font-family: "Zen Old Mincho", serif;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .relative {
   position: relative;
   font-family: Arial, sans-serif;
   font-size: 26px;
 }
-
-
 
 .bg {
   background-image: url(img/fv.png);
@@ -697,7 +464,102 @@ a {
   opacity: 0.85;
 }
 
+.gradient-button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(90deg, #0A5F1A 0%, #0F8C26 50%, #0A5F1A 100%);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+  width: 550px;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.gradient-button:hover {
+  filter: brightness(1.2);
+  /* 明るくする */
+  letter-spacing: .05em;
+}
+
+.gradient-button2 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 25px 40px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(90deg, #0A5F1A 0%, #0F8C26 50%, #0A5F1A 100%);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+  width: 550px;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.gradient-button2:hover {
+  filter: brightness(1.2);
+  letter-spacing: .05em;
+}
+
 @media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .text-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .gradient-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(90deg, #0A5F1A 0%, #0F8C26 50%, #0A5F1A 100%);
+    transition: all 0.3sease-in-out;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-family: "Zen Old Mincho", serif;
+  }
+
+  .gradient-button2 {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(90deg, #0A5F1A 0%, #0F8C26 50%, #0A5F1A 100%);
+    transition: all 0.3sease-in-out;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-family: "Zen Old Mincho", serif;
+  }
 
   .contact-box {
     flex-direction: column;
@@ -740,6 +602,57 @@ a {
   .box img {
     width: 130px;
     margin: 10 auto;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-content,
+  .image-content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .image-content img {
+    width: 100%;
+  }
+
+  .faq {
+    padding: 15px;
+  }
+
+  .faq-box {
+    padding: 15px;
+  }
+
+  .faq-q {
+    font-size: 16px;
+  }
+
+  .faq-a {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .slide {
+    flex: 0 0 100%;
   }
 }
 
@@ -821,38 +734,18 @@ a {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.gradient-button {
-  cursor: pointer;
-  display: inline-block;
-  padding: 15px 40px;
-  font-size: 20px;
-  font-weight: normal;
-  color: white;
-  text-decoration: none;
-  background: linear-gradient(90deg, #0A5F1A 0%, #0F8C26 50%, #0A5F1A 100%);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  letter-spacing: 0.5px;
-  width: 550px;
-  font-family: "Zen Old Mincho", serif;
+@media (min-width: 1024px) {
+  .lg\:pt-0 {
+    padding-top: 15px;
+  }
 }
 
-.gradient-button:hover {
-  filter: brightness(1.2);
-  /* 明るくする */
-  letter-spacing: .05em;
+@media (min-width: 768px) {
+  .md\:left-8 {
+    left: 0rem;
+  }
+
+  .md\:w-\[19\.3vw\] {
+    width: 12.3vw;
+  }
 }
