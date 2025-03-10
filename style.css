@@ -10,6 +10,12 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
   font-family: "Zen Old Mincho", serif;
 }
 
+#G_nav_button span {
+  mix-blend-mode: difference;
+  transition: .3s;
+  font-family: "Zen Old Mincho", serif;
+}
+
 .faq {
   margin: 0 auto;
   text-align: center;
@@ -255,11 +261,11 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 }
 
 .sp {
-  display: none;
+  display: none !important;
 }
 
 .pc {
-  display: block;
+  display: block !important;
 }
 
 .flex-wrapper {
@@ -513,11 +519,16 @@ a {
   .cards {
     flex-direction: column;
     align-items: center;
+    gap: 25px;
+  }
+
+  .container-wrapper {
+    padding-top: 6.5rem;
   }
 
   .card {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
 
   .text-content h2 {
@@ -582,12 +593,11 @@ a {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 90px 0;
+    padding: 60px 0 0 0;
     height: auto;
   }
 
@@ -604,21 +614,42 @@ a {
   }
 
   .box img {
-    width: 130px;
-    margin: 10 auto;
+    width: 100px;
+    margin: 6 auto;
+  }
+
+  .leading-none {
+    line-height: normal;
+  }
+
+  .-mb-1 {
+    margin-bottom: auto;
+  }
+
+  .info-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
   }
 
   .sp {
-    display: block;
+    display: block !important;
   }
 
   .pc {
-    display: none;
+    display: none !important;
+  }
+
+  .faq-button {
+    text-align: center;
+    margin-top: 0px;
   }
 
   .section {
     flex-direction: column;
     text-align: center;
+    margin-bottom: 35px;
   }
 
   .text-content,
@@ -632,7 +663,7 @@ a {
   }
 
   .faq {
-    padding: 15px;
+    padding: 0 0 6.5rem 0;
   }
 
   .faq-box {
