@@ -601,6 +601,14 @@ a {
     height: auto;
   }
 
+  .slides {
+    display: flex;
+    width: 104%;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
   .py-32 {
     padding-top: 6.5rem;
   }
