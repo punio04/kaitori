@@ -588,7 +588,11 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 90px 0;
-    height: 840px;
+    height: auto;
+  }
+
+  .py-32 {
+    padding-top: 6.5rem;
   }
 
   .fv-section {
