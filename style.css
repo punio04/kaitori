@@ -319,7 +319,7 @@ footer.flex-0.relative.md\:pb-0.pb-16 {
 }
 
 .bg {
-  background-image: url(img/fv.png);
+  background-image: url(img/fv.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -589,7 +589,7 @@ a {
   }
 
   .bg {
-    background-image: url(img/fv_sp.png);
+    background-image: url(img/fv_sp.webp);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
