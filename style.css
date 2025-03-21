@@ -792,3 +792,13 @@ a {
     width: 12.3vw;
   }
 }
+
+@media (min-width: 1600px) {
+  .bg {
+    background-position: top center;
+  }
+
+  .fv-section {
+    margin-top: 7%;
+  }
+}
